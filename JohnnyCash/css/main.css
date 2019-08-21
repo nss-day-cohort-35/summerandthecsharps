@@ -1,3 +1,55 @@
+
+.wrapper {
+    width: 98%
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    padding: 1em;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    background-color: #b2bfa7;
+}
+
+.mainarticle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imageside {
+    display: flex;
+    flex-direction:row;
+}
+
+img {
+    width: 15em;
+    height: 15em;
+    align-self: flex-start;
+}
+
+.divider {
+    width: 9em;
+}
+
+.thirty {
+    width: 30%;
+}
+
+.seventy {
+    width: 70%;
+}
+
+.up1em {
+    margin-top: -1em;
+}
+
+
+
+
 body {
     display: flex;
     flex-direction: column;
