@@ -1,8 +1,24 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #f2efc7;
 }
 
+
+h1, h2, h3 {
+    font-family: ‘Alfa Slab One’, cursive;
+    border-bottom: 1px #284a57 solid;
+
+}
+
+p {
+    font-family: ‘Gentium Book Basic’, serif;
+    padding: 0.5em;
+}
+
+li {
+    padding: 0.25em;
+}
 
 header {
     display: flex;
