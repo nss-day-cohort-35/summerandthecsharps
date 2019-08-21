@@ -1,0 +1,59 @@
+body {
+    background-color: #f2efc7;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f2efc7;
+}
+
+h1, h2, h3 {
+
+    color: #284a57;
+    align-self: center;
+}
+
+img {
+    width: 450px;
+    max-width: 100%;
+    max-height: 450px;
+    border-radius: .2em;
+}
+
+.birth {
+    display: flex;
+    flex: 1 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.young {
+    display: flex;
+    flex: 1 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.death {
+    display: flex;
+    flex: 1 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    min-width: 0;
+    margin: 5px;
+}
+
