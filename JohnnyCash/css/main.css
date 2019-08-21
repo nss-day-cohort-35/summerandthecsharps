@@ -43,10 +43,10 @@ img {
     width: 70%;
 }
 
-.up1em {
-    margin-top: -1em;
-}
 
+.footerlinks {
+    margin-top: 0.75em;
+}
 
 
 
@@ -127,6 +127,10 @@ footer {
     
 }
 
+.up1em {
+    margin-top: -1em;
+}
+
 .footer {
     width: 70%;
 
@@ -154,6 +158,11 @@ footer {
     border-radius: 100%;
     
   }
+
+.fa img {
+    width:1.5em;
+    height: 1.5em;
+}
   
  
 .fa:hover {
