@@ -1,3 +1,55 @@
+
+.wrapper {
+    width: 98%
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    padding: 1em;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    background-color: #b2bfa7;
+}
+
+.mainarticle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imageside {
+    display: flex;
+    flex-direction:row;
+}
+
+div > img {
+    width: 25%;
+    height: 100%;
+    align-self: flex-start;
+}
+
+.divider {
+    width: 9em;
+}
+
+.thirtypercentdiv { 
+    width: 30%;
+}
+
+.seventypercentdiv {
+    width: 70%;
+}
+
+
+.footerlinks {
+    margin-top: 0.75em;
+}
+
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,7 +57,7 @@ body {
 }
 
 
-h1, h2, h3 {
+ h2, h3 {
     font-family: ‘Alfa Slab One’, cursive;
     border-bottom: 1px #284a57 solid;
 
@@ -40,7 +92,7 @@ nav {
     flex: 3;
 }
 
-button {
+nav a {
     border: #e76f51 solid .2em;
     border-radius: 18px;
     background-color: #f2efc7;
@@ -49,7 +101,8 @@ button {
     display: inline-block;
     font-size: 16px;
     margin: 10px;
-    
+    text-align: center;
+    text-justify: center;
 }
 
 a {
@@ -60,6 +113,8 @@ a {
 a:hover {
     color: #e76f51;
 }
+
+
 
 /* Do not edit bellow this line, footer code. */
 footer {
@@ -73,6 +128,10 @@ footer {
     align-content: center;
     justify-content: center;
     
+}
+
+.up1em {
+    margin-top: -1em;
 }
 
 .footer {
@@ -92,7 +151,7 @@ footer {
 
 
 
-.fa {
+.ficon {
     padding: 10px;
     font-size: 24px;
     width: 30px;
@@ -102,9 +161,14 @@ footer {
     border-radius: 100%;
     
   }
+
+.ficon img {
+    width:1.5em;
+    height: 1.5em;
+}
   
  
-.fa:hover {
+.ficon:hover {
     opacity: 0.7;
   }
   
