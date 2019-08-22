@@ -14,6 +14,11 @@
     background-color: #b2bfa7;
 }
 
+.logo {
+
+    padding: 4em;
+}
+
 .mainarticle {
     display: flex;
     flex-direction: row;
@@ -25,11 +30,13 @@
     flex-direction:row;
 }
 
+
 div > img {
     width: 15em;
     height: 15em;
     align-self: flex-start;
 }
+
 
 .divider {
     width: 9em;

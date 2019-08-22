@@ -1,45 +1,4 @@
 
-/* Header CSS Start*/
-header {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: black;
-}
-
-nav {
-    flex-direction: row;
-    display: flex;
-    width: 100%;
-    padding: 3em;
-    flex-wrap: wrap;
-    background-color: black;
-}
-
-.active {
-    flex: 3;
-}
-
-button {
-    border: #e76f51 solid .2em;
-    border-radius: 18px;
-    background-color: #f2efc7;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px;
-    
-}
-
-a {
-    color: #284a57;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #e76f51;
-}
 
 /*Header CSS End */
 /* BODY NEWSFEED START */
@@ -84,9 +43,12 @@ article {
 /* BODY NEWSFEED END */
 
 /*Footer CSS Start */
+footer {
+
 
 /* Do not edit bellow this line, footer code. */
 footer {
+
 
     width: 100%;
     margin-left: auto;
@@ -111,12 +73,15 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #e76f51;
+
     border-radius: 30em;
     border: 0.2em solid #734d26;
+
     flex-direction: column;
     
     
 }
+
 
 
 
@@ -125,6 +90,7 @@ footer {
     font-size: 24px;
     width: 1.2em;
     height: 1.2em;
+
     text-align: center;
     text-decoration: none;
     border-radius: 100%;
@@ -136,7 +102,7 @@ footer {
     height: 1.5em;
 }
   
- 
+
 .ficon:hover {
     opacity: 0.7;
   }
