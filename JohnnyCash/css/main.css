@@ -1,46 +1,10 @@
 
-.wrapper {
-    width: 98%
-}
 
-.content {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
-    padding: 1em;
-    width: 100%;
-    display:flex;
-    flex-direction: row;
-    background-color: #b2bfa7;
-}
+
 
 .logo {
 
     padding: 4em;
-}
-
-.mainarticle {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.imageside {
-    display: flex;
-    flex-direction:row;
-}
-
-
-.divider {
-    width: 9em;
-}
-
-.thirtypercentdiv { 
-    width: 30%;
-}
-
-.seventypercentdiv {
-    width: 70%;
 }
 
 
@@ -57,20 +21,6 @@ body {
 }
 
 
- h2, h3 {
-    font-family: ‘Alfa Slab One’, cursive;
-    border-bottom: 1px #284a57 solid;
-
-}
-
-p {
-    font-family: ‘Gentium Book Basic’, serif;
-    padding: 0.5em;
-}
-
-li {
-    padding: 0.25em;
-}
 
 header {
     display: flex;
@@ -103,15 +53,6 @@ nav {
     
 }
 
-a {
-    color: #61606E;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #e76f51;
-}
-
 
 
 /* Do not edit bellow this line, footer code. */
@@ -140,8 +81,8 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #e76f51;
-    border-radius: 150px;
-    border: 3px solid #734d26;
+    border-radius: 30em;
+    border: 0.2em solid #734d26;
     flex-direction: column;
     
     
@@ -150,10 +91,10 @@ footer {
 
 
 .ficon {
-    padding: 10px;
+    padding: 0.3em;
     font-size: 24px;
-    width: 30px;
-    height: 30px;
+    width: 1.2em;
+    height: 1.2em;
     text-align: center;
     text-decoration: none;
     border-radius: 100%;
