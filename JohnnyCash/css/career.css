@@ -96,6 +96,7 @@ footer {
       display:flex;
       justify-content: center;
       background-color: :#f2efc7;
+      width:auto;
 }
 
   
@@ -112,7 +113,7 @@ footer {
   .skillsimage{
     background: url("../images/skills.jpg") fixed no-repeat center;
     height:60em;
-    margin: 2em 0;
+    margin:0;
 }
 
 .careercontainer{
@@ -122,6 +123,8 @@ footer {
     justify-content: center;
 }
 
+
+
   h1{
       color:white;
       font-size:6em;
@@ -129,6 +132,10 @@ footer {
 
   h2{
       color:white;
+  }
+
+  h3{
+      color:#fff;
   }
   p{
       color:#fff;
@@ -150,10 +157,28 @@ footer {
 
   .publishedworks{
       background-image: url("../images/published.jpg") fixed no-repeat center;
+      background-color:#000;
   }
 
- ul.skillset{
+ .skillslist{
      display:flex;
+     flex-direction: row;
  }
 
+ .placeslived{
+     background-color:#000;
+     width:100%;
+ }
+
+ .placeslived p{
+     color:#fff;
+ }
+
+ .collaborations {
+     background-color:#000;
+ }
+
+ .awards {
+     background-color:#000;
+ }
   
