@@ -1,3 +1,89 @@
-body {
+
+/* Header CSS Start*/
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+}
+
+nav {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    padding: 3em;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.active {
+    flex: 3;
+}
+
+button {
+    border: #e76f51 solid .2em;
+    border-radius: 18px;
+    background-color: #f2efc7;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
     
 }
+
+a {
+    color: #284a57;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e76f51;
+}
+
+/*Header CSS End */
+/* BODY NEWSFEED START */
+
+body {
+    background-color: #f2efc7;
+}
+
+h1, h2 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+h2 {
+    position: relative;
+    top: 20px;
+}
+p {
+    font-family: ‘Gentium Book Basic’, serif;
+    padding-left: .5em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+   display: flex;
+   flex-direction: row;
+   border: .2em solid #e76f51;
+   padding: .5em;
+   margin-top: 0em;
+   text-align: left;
+   line-height: 1.3em;
+   text-indent: 2em;
+}
+
+/* BODY NEWSFEED END */
+
+/*Footer CSS Start */
+
+
+/*Footer CSS End */
