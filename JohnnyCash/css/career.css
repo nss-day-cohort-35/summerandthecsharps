@@ -112,6 +112,7 @@ footer {
   .skillsimage{
     background: url("../images/skills.jpg") fixed no-repeat center;
     height:60em;
+    margin: 2em 0;
 }
 
 .careercontainer{
@@ -151,8 +152,8 @@ footer {
       background-image: url("../images/published.jpg") fixed no-repeat center;
   }
 
-  .skillslist ul li{
-      display:inline-block;
-  }
+ ul.skillset{
+     display:flex;
+ }
 
   
