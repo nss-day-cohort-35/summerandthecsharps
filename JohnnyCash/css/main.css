@@ -25,9 +25,9 @@
     flex-direction:row;
 }
 
-img {
-    width: 15em;
-    height: 15em;
+div > img {
+    width: 25%;
+    height: 100%;
     align-self: flex-start;
 }
 
@@ -113,6 +113,8 @@ a {
 a:hover {
     color: #e76f51;
 }
+
+
 
 /* Do not edit bellow this line, footer code. */
 footer {
