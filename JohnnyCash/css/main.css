@@ -35,11 +35,11 @@ div > img {
     width: 9em;
 }
 
-.thirty {
+.thirtypercentdiv { 
     width: 30%;
 }
 
-.seventy {
+.seventypercentdiv {
     width: 70%;
 }
 
@@ -151,7 +151,7 @@ footer {
 
 
 
-.fa {
+.ficon {
     padding: 10px;
     font-size: 24px;
     width: 30px;
@@ -162,13 +162,13 @@ footer {
     
   }
 
-.fa img {
+.ficon img {
     width:1.5em;
     height: 1.5em;
 }
   
  
-.fa:hover {
+.ficon:hover {
     opacity: 0.7;
   }
   
