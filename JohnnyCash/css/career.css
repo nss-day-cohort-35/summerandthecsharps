@@ -90,9 +90,8 @@ footer {
     opacity: 0.7;
   }
 
-  #careercontainer {
+  #careercontainer section {
       text-align: left;
-      flex:4;
       flex-direction: row;
       display:flex;
       justify-content: center;
@@ -115,6 +114,13 @@ footer {
     height:60em;
 }
 
+.careercontainer{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    justify-content: center;
+}
+
   h1{
       color:white;
       font-size:6em;
@@ -126,3 +132,27 @@ footer {
   p{
       color:#fff;
   }
+
+  section{
+      margin: 0 2em;
+      background-color: #000;
+      width:100%;
+  }
+
+  section ul{
+      list-style-type:none;
+  }
+
+  section ul li{
+      color:#fff;
+  }
+
+  .publishedworks{
+      background-image: url("../images/published.jpg") fixed no-repeat center;
+  }
+
+  .skillslist ul li{
+      display:inline-block;
+  }
+
+  
