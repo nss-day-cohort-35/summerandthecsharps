@@ -26,8 +26,8 @@
 }
 
 div > img {
-    width: 25%;
-    height: 100%;
+    width: 15em;
+    height: 15em;
     align-self: flex-start;
 }
 
@@ -140,8 +140,8 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #e76f51;
-    border-radius: 150px;
-    border: 3px solid #734d26;
+    border-radius: 30em;
+    border: 0.2em solid #734d26;
     flex-direction: column;
     
     
@@ -150,10 +150,10 @@ footer {
 
 
 .ficon {
-    padding: 10px;
+    padding: 0.3em;
     font-size: 24px;
-    width: 30px;
-    height: 30px;
+    width: 1.2em;
+    height: 1.2em;
     text-align: center;
     text-decoration: none;
     border-radius: 100%;

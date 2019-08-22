@@ -60,35 +60,49 @@ footer {
     
 }
 
+.up1em {
+    margin-top: -1em;
+}
+
 .footer {
     width: 70%;
+
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     background-color: #e76f51;
-    border-radius: 150px;
-    border: 3px solid #734d26;
-    flex-direction: column;   
+    border-radius: 30em;
+    border: 0.2em solid #734d26;
+    flex-direction: column;
+    
+    
 }
 
 
 
-.fa {
-    padding: 10px;
+.ficon {
+    padding: 0.3em;
     font-size: 24px;
-    width: 30px;
-    height: 30px;
+    width: 1.2em;
+    height: 1.2em;
     text-align: center;
     text-decoration: none;
     border-radius: 100%;
     
   }
+
+.ficon img {
+    width:1.5em;
+    height: 1.5em;
+}
   
  
-.fa:hover {
+.ficon:hover {
     opacity: 0.7;
   }
+  
+
 
   #careercontainer section {
       text-align: left;
