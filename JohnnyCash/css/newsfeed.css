@@ -51,9 +51,34 @@ body {
 h1, h2 {
     font-family: 'Alfa Slab One', cursive;
 }
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+h2 {
+    position: relative;
+    top: 20px;
+}
 p {
     font-family: ‘Gentium Book Basic’, serif;
+    padding-left: .5em;
+}
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+   display: flex;
+   flex-direction: row;
+   border: .2em solid #e76f51;
+   padding: .5em;
+   margin-top: 0em;
+   text-align: left;
+   line-height: 1.3em;
+   text-indent: 2em;
 }
 
 /* BODY NEWSFEED END */
