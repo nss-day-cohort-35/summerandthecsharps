@@ -88,25 +88,23 @@ nav {
     background-color: black;
 }
 
-.active {
-    flex: 3;
-}
 
-nav a {
-    border: #e76f51 solid .2em;
+
+
+.button {
+    border: #B26361 solid .1em;
     border-radius: 18px;
-    background-color: #f2efc7;
-    padding: 15px 32px;
+    background-color: #DAAF2C;
+    padding: 10px 10px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
-    margin: 10px;
-    text-align: center;
-    text-justify: center;
+    margin: 6.5em 2.5em;
+    flex: 3;
+    
 }
 
 a {
-    color: #284a57;
+    color: #61606E;
     text-decoration: none;
 }
 
