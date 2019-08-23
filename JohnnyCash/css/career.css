@@ -90,7 +90,7 @@ footer {
     opacity: 0.7;
   }
 
-  #careercontainer section {
+  .careercontainer section {
       text-align: left;
       flex-direction: row;
       display:flex;
@@ -116,7 +116,7 @@ footer {
     margin:0;
 }
 
-.careercontainer{
+#careercontainer{
     display:flex;
     flex-direction:row;
     text-align:center;
@@ -180,4 +180,13 @@ footer {
 
  .awards {
      background-color:#000;
+ }
+
+ .columnidea{
+     display:flex;
+     flex-direction:column;
+ }
+
+ .htags{
+     
  }
