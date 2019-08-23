@@ -1,0 +1,70 @@
+.mainarticle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imageside {
+    display: flex;
+    flex-direction:row;
+}
+
+
+div > img {
+    width: 15em;
+    height: 15em;
+    align-self: flex-start;
+}
+
+
+.divider {
+    width: 9em;
+}
+
+.thirtypercentdiv { 
+    width: 30%;
+}
+
+.seventypercentdiv {
+    width: 70%;
+}
+
+.wrapper {
+    width: 98%
+}
+
+h2, h3 {
+    font-family: ‘Alfa Slab One’, cursive;
+    border-bottom: 1px #284a57 solid;
+
+}
+
+p {
+    font-family: ‘Gentium Book Basic’, serif;
+    padding: 0.5em;
+}
+
+li {
+    padding: 0.25em;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    padding: 1em;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    background-color: #b2bfa7;
+}
+
+
+a {
+    color: #61606E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e76f51;
+}
