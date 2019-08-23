@@ -23,12 +23,15 @@ a {
 a:link {
     color: black;
     }
-    a:visited {
-    color: #e76f51;
-    }
-    a:hover {
-    color: #e76f51;
-    }
+
+a:visited {
+color: #e76f51;
+}
+
+a:hover {
+color: #e76f51;
+}
+
 h2 {
     text-align: left;
     position: relative;
