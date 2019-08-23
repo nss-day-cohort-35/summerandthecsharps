@@ -1,27 +1,43 @@
 
-
-/*Header CSS End */
 /* BODY NEWSFEED START */
 
 body {
     background-color: #f2efc7;
 }
 
-h1, h2 {
+.firstheading, h2 {
     font-family: 'Alfa Slab One', cursive;
+    font: black;
 }
 
-h1 {
+.firstheading {
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
+   
 }
+a {
+    text-decoration: none;
+    
+}
+
+a:link {
+    color: black;
+    }
+    a:visited {
+    color: #e76f51;
+    }
+    a:hover {
+    color: #e76f51;
+    }
 h2 {
+    text-align: left;
     position: relative;
     top: 20px;
+    
 }
 p {
     font-family: ‘Gentium Book Basic’, serif;
-    padding-left: .5em;
+    padding-left: .7em;
 }
 
 .content {
@@ -29,18 +45,21 @@ p {
     flex-direction: column;
 }
 
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+}
 article {
    display: flex;
    flex-direction: row;
    border: .2em solid #e76f51;
-   padding: .5em;
-   margin-top: 0em;
+   padding: .6em;
    text-align: left;
    line-height: 1.3em;
    text-indent: 2em;
 }
 
-/* BODY NEWSFEED END */
+/* BODY ------ END */
 
 /*Footer CSS Start */
 
