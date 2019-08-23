@@ -15,7 +15,6 @@ body {
 
 h1, h2, h3 {
     font-family: ‘Alfa Slab One’, cursive;
-    border-bottom: 1px #DAAF2C solid;
     color: #DAAF2C;
 
 }
@@ -70,7 +69,3 @@ section {
     margin: 5px;
 }
 
-.personal + h1 {
-
-    align-self: center;
-}
