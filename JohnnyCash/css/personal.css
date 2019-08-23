@@ -69,4 +69,8 @@ section {
     margin: 5px;
 }
 
+a {
+    text-decoration: none;
+    color:#e76f51;
+}
 
