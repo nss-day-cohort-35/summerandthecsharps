@@ -46,56 +46,16 @@ a:hover {
     color: #e76f51;
 }
 
-/* Do not edit bellow this line, footer code. */
-footer {
 
-    width: 100%;
-    margin-left: auto;
-    margin-top: 6em;
-    height: 6em;
-    margin-right: auto;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    
-}
-
-.footer {
-    width: 70%;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    background-color: #e76f51;
-    border-radius: 150px;
-    border: 3px solid #734d26;
-    flex-direction: column;   
-}
-
-
-
-.fa {
-    padding: 10px;
-    font-size: 24px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 100%;
-    
-  }
   
- 
-.fa:hover {
-    opacity: 0.7;
-  }
+
 
   #careercontainer section {
       text-align: left;
       flex-direction: row;
       display:flex;
       justify-content: center;
-      background-color:#f2efc7;
+      background-color:#000;
       width:auto;
 }
 
